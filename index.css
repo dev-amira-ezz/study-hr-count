@@ -1,0 +1,55 @@
+body {
+    background-image: url("study-area.jpg");
+    background-size: cover;
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    color: #683B9C;
+    height: 100vh;
+}
+
+.container {
+    max-width: 50%;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: #f3d2af;
+    opacity: 90%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 3px 3px #683B9C;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 10rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: white 5px solid;
+    cursor: pointer;
+}
+#increment-btn {
+    background: #D61A59;
+}
+
+#save-btn {
+    background: #FC7B53;
+}
+
+
